@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">H Project</string>
+    <string name="week_mode">Week mode</string>
+    <string name="nav_drawer_open">Open Drawer</string>
+    <string name="nav_drawer_close">Close Drawer</string>
+
+
+    <!-- setting_menu.xml -->
+    <string name="menu_title">Menu</string>
+    <string name="return_home">Home</string>
+    <string name="adjust_profile">Adjust Profile</string>
+    <string name="professional_title">Professional</string>
+    <string name="find_food">Food</string>
+    <string name="find_coach">Training</string>
+    <string name="communicate_title">Communicate</string>
+    <string name="nav_merch_t">Merch</string>
+    <string name="nav_contact_t">Contact Us</string>
+    <string name="nav_share_t">Share</string>
+    <string name="nav_rate_t">Rate Us</string>
+
+</resources>

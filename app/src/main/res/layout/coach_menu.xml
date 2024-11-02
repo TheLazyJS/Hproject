@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coach_menu"
+    android:layout_width="match_parent"
+    android:layout_height="510dp"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="15dp"
+    android:paddingRight="16dp"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready to take the next step and get 1-on-1 support for your new health habits?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Contact us !"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/edtTxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-Mail" />
+
+    <EditText
+        android:id="@+id/edtTxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:maxLines="5"
+        android:ems="10"
+        android:hint="Tell us what you are looking for..."
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:gravity="top|start"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:id="@+id/submitCoaching"/>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_title">
+
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/return_icon"
+                android:title="@string/return_home" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="@string/adjust_profile" />
+        </menu>
+    </item>
+    <item android:title="@string/professional_title">
+
+        <menu>
+            <item
+                android:id="@+id/nav_coaching"
+                android:icon="@drawable/coaching_icon"
+                android:title="@string/find_coach" />
+            <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/coaching_icon"
+                android:title="@string/find_food" />
+        </menu>
+    </item>
+    <item android:title="@string/communicate_title">
+
+        <menu>
+            <item
+                android:id="@+id/nav_merch"
+                android:icon="@drawable/contact_icon"
+                android:title="@string/nav_merch_t" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact_icon"
+                android:title="@string/nav_contact_t" />
+            <item
+                android:id="@+id/nav_shared"
+                android:icon="@drawable/share_icon"
+                android:title="@string/nav_share_t" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="@string/nav_rate_t" />
+        </menu>
+    </item>
+</menu>

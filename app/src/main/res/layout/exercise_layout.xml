@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/exe_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push-up"
+        android:textSize="18sp"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/exe_choice_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3x"
+        android:textSize="18sp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rep:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/exe_choice_rep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 reps"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rest: "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingEnd="8dp"/>
+
+        <Button
+            android:id="@+id/timerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:20"/>
+
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/exe_pic_ViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Swipe to view more movement variations"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* If regular push-ups are challenging, start with knee push-ups, keeping your knees on the ground while maintaining a straight line from your knees to your head.\n * Another modification is to perform push-ups against a wall or on an elevated surface like a bench to reduce the difficulty."
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progression"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Once incline push-ups become easy, you can try advanced variations like push-ups, or decline push-ups to increase difficulty."
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mistake to avoid"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Letting your hips sag or rise.\n* Flaring your elbows too wide.\n* Failing to engage your core, which can lead to improper alignment."
+            android:layout_marginBottom="15dp"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+</ScrollView>
